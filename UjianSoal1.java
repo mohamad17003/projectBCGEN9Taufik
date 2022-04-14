@@ -6,6 +6,7 @@ public class UjianSoal1 {
 		System.out.println("Masukan Nilai N:");
 		Scanner scan = new Scanner(System.in);
 		int n= scan.nextInt();
+		scan.close();
 		return n;
 	}
 	public int [][] isiArray(int n){
@@ -13,9 +14,9 @@ public class UjianSoal1 {
 		for(int i=0;i<2;i++) {
 			for(int j=0; j<n;j++) {
 				if(i==0) {
-					array[i][j]=2*j+1;
+					array[i][j]=4*j+1;//1 5 9 13 17
 				}else {
-					array[i][j]=2*n-1-2*j;
+					array[i][j]=4*n-3-4*j;//array[0][n-1-j];//4*n-1-4*j;
 				}
 			}
 		}
