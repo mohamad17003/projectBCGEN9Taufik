@@ -1,7 +1,7 @@
 package Ujian;
 import java.util.Scanner;
 
-public class UjianSoal2 {
+public class UjianSoal2 {//sama ini juga pengen nyoba brance aja sih
 	public Scanner scan = new Scanner(System.in);
 	public int [][] ArrayItem(){
 		int arrayItem [][]=new int [2][3];
